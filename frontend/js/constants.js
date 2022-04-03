@@ -1,7 +1,7 @@
 const contractAddress = "0x72d97e45C50EFB51BaC35f5333A13B3C2791840F"; //Replace with your own contract address
 const chain = 'polygon'; // rinkeby or polygon
 
-const welcome_h1 = "Welcome to the ChicagoPizzaRDD NFT Project!!";
+const welcome_h1 = "Welcome to the ChicagoPizzaRDD NFT Bakery!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
 const welcome_p = 'The ChicagoPizzaRDD NFT Project is a decentralized, open-source project that aims to provide more Chicago Pizza art to the blockchain.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
