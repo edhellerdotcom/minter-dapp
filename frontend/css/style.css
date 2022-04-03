@@ -8,11 +8,11 @@
   --font-primary: "Calistoga", serif;
   --font-secondary: "Libre+Franklin", sans-serif;
   --font-code: "Roboto", monospace;
-  --bg-color: #990000;
+  --bg-color: #ffaa00;
   --bg-color-transparent: #00163f80;
   --font-color: #000000;
   --btn-bg-color: #ffffff;
-  --accent-color: #ff8800;
+  --accent-color: #ffcc00;
   --header-shadow: var(--accent-color) 0px 0px 2px;
   --card-shadow: var(--accent-color) 0px 0px 10px;
 }
