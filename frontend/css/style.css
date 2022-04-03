@@ -186,7 +186,7 @@ section {
 .countdown .clock-item .count-number {
   background: var(--accent-color);
   color: var(--font-color);
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   font-family: var(--font-secondary);
   padding: 1rem;
@@ -301,12 +301,12 @@ section {
 }
 
 .minted-container h1 {
-  font-size: 5rem;
+  font-size: 1.5rem;
   margin-bottom: 2rem;
 }
 
 .minted-container h2 {
-  font-size: 2rem;
+  font-size: 1.2rem;
   margin-bottom: 1rem;
 }
 
