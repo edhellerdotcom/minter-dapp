@@ -101,7 +101,7 @@ header .container {
 
 .btn {
   display: inline-block;
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
   background: var(--btn-bg-color);
   color: var(--accent-color);
   font-family: var(--font-secondary);
@@ -250,7 +250,7 @@ section {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  background-color: var(--accent-color);
+  background-color: #990000;
   border-radius: 5px;
 }
 
@@ -287,7 +287,7 @@ section {
 }
 
 .total-price-container p {
-  color: var(--accent-color);
+  color: #007710;
 }
 
 /* MINTED CONTAINER */
@@ -324,7 +324,8 @@ section {
 }
 
 .splide__slide {
-  border: var(--accent-color) solid;
+  border: solid;
+  border-color:#99000079 ;
   border-width: 5px 10px;
 }
 
@@ -335,7 +336,7 @@ section {
 /* SPINNER */
 .dot-spin {
   position: absolute;
-  top: 50%;
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -50%) scale(3);
 }
