@@ -33,11 +33,11 @@ body {
 }
 
 .container {
-  display: flex;
+  display: inline-block;
   flex-direction: column;
-  max-width: 960px;
+  max-width: 1080px;
   margin: auto auto;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   justify-content: right;
   overflow: auto;
 }
@@ -103,10 +103,10 @@ header .container {
   display: inline-block;
   padding: 1rem 1.5rem;
   background: var(--btn-bg-color);
-  color: var(--accent-color);
+  color: #000000;
   font-family: var(--font-secondary);
-  font-style: italic;
-  font-weight: bold;
+  font-style: normal;
+  font-weight: normal;
   font-size: 1rem;
   text-align: center;
   text-transform: capitalize;
