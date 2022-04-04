@@ -17,6 +17,26 @@
   --card-shadow: var(--accent-color) 0px 0px 10px;
 }
 
+/* unvisited link */
+a:link {
+  color: #990000;
+}
+
+/* visited link */
+a:visited {
+  color: #770000;
+}
+
+/* mouse over link */
+a:hover {
+  color: #e94200;
+}
+
+/* selected link */
+a:active {
+  color: #ff0000;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -318,7 +338,7 @@ section {
 .splide {
   position: absolute;
   top: 90px;
-  left: 0.5rem;
+  left: 0px;
   z-index: -1;
 }
 
