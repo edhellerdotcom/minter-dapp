@@ -65,19 +65,35 @@ body {
 }
 
 /* HEADER */
+/* adding the header thing */
+.headerthing {
+  display: block;
+  /*  flex-direction: column; */
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    justify-content: center;
+    word-wrap: break-word; /* added */
+    overflow: auto;
+}
 
 header {
 
   background-color: #c00000 ;
   box-shadow: var(--header-shadow);
 }
-
+header .headerthing {
+  flex: auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+/*
 header .container {
 flex: auto;
   justify-content: space-between;
   align-items: center;
 }
-
+*/
 .menu {
   display: flex;
   gap: 1rem;
