@@ -9,7 +9,7 @@
   --font-secondary: "Libre+Franklin", sans-serif;
   --font-code: "Roboto", monospace;
   --bg-color: #ffaa00;
-  --bg-color-transparent: #00163f80;
+  --bg-color-transparent: #ffc956e5;
   --font-color: #000000;
   --btn-bg-color: #ffffff;
   --accent-color: #ff6600;
@@ -87,7 +87,7 @@ header .container {
  /* align-items: center; */
   height: 100%;
   text-align: center;
- margin: 5rem auto 0 auto;
+ margin: 0 5vw 0 15vw;
   /* margin: 0 auto 0 35vw; */
   opacity: 1;
   /* transform: translateY(10vh); */
@@ -168,7 +168,7 @@ header .container {
   box-shadow: var(--card-shadow);
   padding: 5rem;
   margin-bottom: 2rem;
-  opacity: 0;
+  opacity: 1;
   transform: translateX(100vw);
   transition: all 0.5s ease-in-out;
 }

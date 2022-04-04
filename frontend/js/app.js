@@ -6,9 +6,9 @@ window.addEventListener("DOMContentLoaded", async () => {
   const welcomeH2 = document.getElementById("welcomeH2");
   const welcomeP = document.getElementById("welcomeP");
 
-  welcomeH1.innerText = welcome_h1;
-  welcomeH2.innerText = welcome_h2;
-  welcomeP.innerHTML = welcome_p;
+//  welcomeH1.innerText = welcome_H1;
+//  welcomeH2.innerText = welcome_H2;
+//  welcomeP.innerHTML = welcome_P;
 
   if (window.ethereum) {
     window.web3 = new Web3(window.ethereum);
