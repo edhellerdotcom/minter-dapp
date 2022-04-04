@@ -337,7 +337,7 @@ section {
 
 .splide {
   position: absolute;
-  top: 90px;
+  top: 100px;
   left: 0px;
   z-index: -1;
 }
@@ -355,7 +355,7 @@ section {
 /* SPINNER */
 .dot-spin {
   position: absolute;
-  top: 75%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%) scale(3);
 }
