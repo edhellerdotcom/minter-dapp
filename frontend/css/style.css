@@ -71,7 +71,7 @@ header {
 }
 
 header .container {
-  flex-direction: row;
+/*  flex-direction: row; */
   justify-content: space-between;
   align-items: center;
 }
@@ -377,8 +377,8 @@ section {
   .not-connected {
     background-color: var(--bg-color-transparent);
     border-radius: 5px;
-    padding: 2rem;
-    margin: 0 auto;
+padding: 0 1em 1em 0;
+margin: 3em 0 auto 3em;
   }
   .countdown ul {
     display: grid;
