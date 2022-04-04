@@ -12,7 +12,7 @@
   --bg-color-transparent: #00163f80;
   --font-color: #000000;
   --btn-bg-color: #ffffff;
-  --accent-color: #ffcc00;
+  --accent-color: #ff6600;
   --header-shadow: var(--accent-color) 0px 0px 2px;
   --card-shadow: var(--accent-color) 0px 0px 10px;
 }
@@ -27,7 +27,7 @@ body {
   background-color: var(--bg-color);
   display: flex;
   flex-flow: column;
-  height: 100vh;
+  height: auto;
   color: var(--font-color);
   font-family: var(--font-primary);
 }
@@ -35,10 +35,8 @@ body {
 .container {
   display: inline flex;
   flex-direction: column;
-  max-width: 1080px;
   margin: auto;
   padding: 1rem 1rem;
-  justify-content: right;
   overflow: auto;
 }
 
