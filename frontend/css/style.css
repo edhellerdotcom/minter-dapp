@@ -127,7 +127,8 @@ header .container {
 .wallet-btn {
   border-radius: 5rem;
   margin-left: 2rem;
-  border-color: transparent;
+  border-color: #ffaa00;
+  text-align: right;
 }
 
 .hero-btn {
