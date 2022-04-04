@@ -40,7 +40,7 @@ a:active {
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+/* box-sizing: border-box; */
 }
 
 body {
@@ -59,7 +59,8 @@ body {
   margin: 0 auto;
   padding: 1rem 2rem;
   justify-content: center;
-  overflow: hidden;
+  overflow: auto;
+/*   overflow: hidden; */  
 }
 
 /* HEADER */
@@ -83,12 +84,13 @@ header .container {
 
 /* NOT CONNECTED */
 .not-connected {
-  align-items: center;
+ /* align-items: center; */
   height: 100%;
   text-align: center;
-  margin: 0 auto 0 35vw;
+ margin: 5rem auto 0 auto;
+  /* margin: 0 auto 0 35vw; */
   opacity: 1;
-  transform: translateY(10vh);
+  /* transform: translateY(10vh); */
   transition: all 0.5s ease-in-out;
 }
 
@@ -339,7 +341,7 @@ section {
 .splide {
   position: absolute;
   top: 90px;
-  left: 5rem;
+/*  left: 5rem; */
   z-index: -1;
 }
 
