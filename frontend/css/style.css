@@ -121,11 +121,11 @@ flex: auto;
   text-shadow: 2px 2px 0 var(--accent-color);
   font-style: italic;
   margin: 2rem 0;
-  font-size: 1.5rem;
+  font-size: 1.1em;
 }
 
 .not-connected p {
-  font-size: 1.1rem;
+  font-size: 1.1em;
   font-family: var(--font-secondary);
   line-height: 1.8;
 }
@@ -133,7 +133,7 @@ flex: auto;
 .not-connected a {
   text-decoration: none;
   color: var(--accent-color);
-  font-size: 1.5rem;
+  font-size: 1.1em;
   font-weight: bold;
 }
 
@@ -341,17 +341,17 @@ section {
 }
 
 .minted-container h1 {
-  font-size: 2rem;
+  font-size: 2em;
   margin-bottom: 1rem;
 }
 
 .minted-container h2 {
-  font-size: 1.2rem;
+  font-size: 1.2em;
   margin-bottom: 1rem;
 }
 
 .minted-container p {
-  margin: 1rem 0;
+  margin: 1em 0;
 }
 
 /* SLIDDER */
@@ -426,7 +426,7 @@ margin: 3em 0 2em 1em;
   }
   .mint-qty .btn {
     padding: 1rem;
-    font-size: 13px;
+    font-size: 1.2em;
   }
 }
 
