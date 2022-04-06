@@ -19,7 +19,7 @@ const button_presale_mint_whitelisted = "Mint Your Special NFT";
 const button_presale_mint_not_whitelisted = "Get on the Whitelist";
 const button_presale_already_minted = "Join The Community";
 const button_public_mint = "Mint Your NFT";
-const mint_failed = "Minting failed. 😢 Please try again.";
+const mint_failed = "Minting failed. 😢 Please try again. If transaction is still 'pending' inside your your MetaMask Wallet, you can retry or cancel. If transaction finally goes through, you can find your tokens on OpenSea.io.";
 
 const abi = [
   {
